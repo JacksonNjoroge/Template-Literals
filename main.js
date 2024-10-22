@@ -1,6 +1,6 @@
 const profiles = [
   {
-    imageUrl: "Assets/Ada Wong.jpeg",
+    imageUrl: "Assets/Ada.jpeg",
     profileName: "Ada Wong",
     title: "UI Designer",
     description:
@@ -14,7 +14,7 @@ const profiles = [
       "We create entertainment and experiences that bring people together. With our community, we use art, culture, technology, and gaming to create meaningful connections.",
   },
   {
-    imageUrl: "Assets/Nasty Cee.jpeg",
+    imageUrl: "Assets/Nasty.jpeg",
     profileName: "Nasty Cee",
     title: "Mobile Designer",
     description:
