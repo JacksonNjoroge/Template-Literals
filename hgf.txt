@@ -1,0 +1,22 @@
+let like = document.getElementsByClassName("like");
+ let i = document.querySelector(".card-container, .profile-card .like i");
+//  let likeInc = document.getElementById("increment");
+//  likeInc.innerHTML = 0;
+
+ for(let x of like){
+    x.addEventListener('click', liking);
+ }
+ function liking(){
+  if (i.classList.contains('bxs-heart')) {
+    i.setAttribute('class', "bx bx-heart"); 
+    // likeInc.textContent--;
+    // if(likeInc.textContent == 0){
+    //   likeInc.innerHTML = "";
+    // }
+    // Unliked state
+} else {
+    i.setAttribute('class', "bx bxs-heart"); 
+    // likeInc.textContent++;
+// Liked state
+}
+ }
